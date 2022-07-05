@@ -25,7 +25,7 @@ html {
 	text-align: center;
 	}
 
-/*
+
 body { 
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
@@ -60,10 +60,10 @@ a:hover, a:focus, a:active {
 	}
 abbr {
 	border-bottom: none;
-	} */
+	}
 
 
-/* specific divs
+specific divs
 .page-wrapper { 
 	background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left; 
 	padding: 0 175px 0 110px;  
@@ -205,4 +205,4 @@ footer a:link, footer a:visited {
 	width: 148px; 
 	height: 110px;
 	} 
-*/
+
