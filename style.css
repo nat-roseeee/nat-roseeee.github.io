@@ -9,23 +9,154 @@
 
 
 /* basic elements */
-html {
+/* html {
 	margin: 0;
 	padding: 0;
-	}
+	} */
 
-.summary {
-	clear: both; 
-	margin: 20px 20px 20px 10px; 
-	width: 160px; 
-	float: left;
+/*.summary a {
+	color: #595B96;
+}*/
+
+
+#css-zen-garden {
+	background-color: whitesmoke;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Arvo', serif;
+}
+
+p, a, li {
+	font-family: 'Finlandica', sans-serif;
+}
+
+/*link text color change*/
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #Ba6DC5;
 	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #1B1367;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: none; 
+	color: #369591;
+	}
+.intro {
+	margin: 1%;
+}
+.title {
+	color: #554CAA;
+	padding-top: 3%;
+	padding-left: 1%;
+	background-color: #C5C1ED;
+	font-size: 150%;
+}
+.title h1 {
+	margin-bottom: 0;
+}
+.tagline {
+	background-color: #554CAA;
+	color: whitesmoke;
+	padding-left: 1%;
+}
+.tagline h2 {
+	font-family: 'Finlandica', sans-serif;
+	margin-top: 0;
+}
 .summary p {
-	font: italic 1.1em/2.2 georgia; 
 	text-align: center;
-	}
+}
+
+
+h3 {
+	color: #369591;
+	font-size: 200%;
+	/* text-shadow: 5px 5px rgb(229, 185, 229); */
+}
+
+.main-supporting {
+	display: flex;
+	margin: 1%;
+}
+.text-majority {
+	background-color: rgba(182, 232, 230, 0.6);
+	padding: 1%;
+	width: 72%;
+}
+
+.sidebar {
+	background-color: rgba(229, 185, 229, 0.6);
+	padding: 1%;
+	width: 25%;
+	margin-left: 1%;
+	/* border-left-style: solid;
+	border-width: 7px;
+	border-color:#369591; */
+}
+.sidebar h3 {
+	color: #943CA1;
+	text-align: center;
+	line-height: 50px;
+} 
+
+.design-selection, .design-archives, .zen-resources {
+	line-height: 30px;
+}
+
+footer {
+	background-color: #C5C1ED;
+	text-align: center;
+	padding: 3%;
+	margin: 1%;
+	word-spacing: 50px;
+	font-size: 2vw;
+}
+
+
+/* .design-archives {
+	float: right;
+	position: absolute;
+	right: 0px;
+}
+
+.zen-resources {
+} */
+
+
+/* #flex { display: flex; flex-direction: column; }
+#a { order: 2; }
+#b { order: 1; }
+#c { order: 3; } */
+
 
 /*
+COLORS:
+
+.color-primary-0 { color: #554CAA }	 Main Primary color 
+.color-primary-1 { color: #C5C1ED }
+.color-primary-2 { color: #837CCC }
+.color-primary-3 { color: #332997 }
+.color-primary-4 { color: #1B1367 }
+
+.color-secondary-1-0 { color: #369591 }	 Main Secondary color (1) 
+.color-secondary-1-1 { color: #B6E8E6 }
+.color-secondary-1-2 { color: #67BDBA }
+.color-secondary-1-3 { color: #158480 }
+.color-secondary-1-4 { color: #055A57 }
+
+.color-secondary-2-0 { color: #943CA1 }	 Main Secondary color (2) 
+.color-secondary-2-1 { color: #E5B9EB }
+.color-secondary-2-2 { color: #BA6DC5 }
+.color-secondary-2-3 { color: #80198F }
+.color-secondary-2-4 { color: #560762 }
+
+
+
 body { 
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
