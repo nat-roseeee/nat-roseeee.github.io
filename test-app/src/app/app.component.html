@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="app.component.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Righteous&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="body">
+
+      <div>
+          <h1>Random Resturant Generator</h1>
+          <h2>- for those lazy, indecisive days -</h2>
+      </div>
+
+      <div class="dropdown">
+        <label for="category">Categories</label><br>
+          <select class="dropdown-category" #categories (change)="onSelected(categories.value)">
+            <option id="default" default value="default">pick a category</option>
+            <option value="dinky">Dinkytown Resturants</option>
+            <option value="sv">Stadium Village Resturants</option>
+            <option value="pizza">Pizza Resturants</option>
+            <option value="chains">Chains</option>
+            <option value="coffee/tea">Coffee and Tea</option>
+            <option value="brekkie">Breakfast Resturants</option>
+          </select> 
+      </div>
+
+      <div class="response"><br>
+        <button type="button" (click)="generateRand(selectedList)">click to generate</button>
+      </div>
+      <div class="resturantBox">
+      <p id="resturant">{{randomResturant}}</p>
+        <p>:)</p>
+      </div>
+
+  </div>
+
+  </body>
+
+</html>
+
+<router-outlet></router-outlet>

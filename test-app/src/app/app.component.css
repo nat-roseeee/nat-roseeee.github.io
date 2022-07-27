@@ -1,0 +1,96 @@
+
+  .body {
+    background-color: #F0EBE3;
+    max-width: 600px;
+  }
+  
+  h1 {
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+  }
+
+  h2 {
+    font-family: monospace;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    color: #576F72;
+  }
+
+  .dropdown {
+    padding-top: 4%;
+    text-align: center;
+  }
+  
+  label {
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1px;
+    font-size: 25px;
+  }
+
+  .dropdown-category {
+    background-color: #7D9D9C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #F0EBE3;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+
+  .dropdown-category:hover {
+    background-color: #576F72;
+  }
+
+  option, p, button, select {
+    font-family: monospace;
+    font-weight: bold;
+  }
+
+  #default {
+    text-align: center;
+  }
+
+  button {
+    background-color: #7D9D9C;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    font-size: 18px;
+    color: #F0EBE3;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    background-color: #576F72;
+  }
+
+  .response {
+    padding-top: 4%;
+    text-align: center;
+  }
+
+  .resturantBox {
+    text-align: center;
+  }
+
+  #resturant {
+    margin-top: 8%;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1px;
+    color: #576F72;
+    font-size: 30px;
+  }
+
+/* font-family: 'Righteous', cursive; 
+
+#F0EBE3  rgb(240, 235, 227) light gray
+#E4DCCF  rgb(228, 220, 207) dark gray
+#7D9D9C  rgb(125, 157, 156) light blue
+#576F72  rgb(87, 111, 114) dark blue
+
+*/
