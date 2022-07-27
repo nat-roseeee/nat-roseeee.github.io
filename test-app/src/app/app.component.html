@@ -19,20 +19,21 @@
         <label for="category">Categories</label><br>
           <select class="dropdown-category" #categories (change)="onSelected(categories.value)">
             <option id="default" default value="default">pick a category</option>
-            <option value="dinky">Dinkytown Resturants</option>
-            <option value="sv">Stadium Village Resturants</option>
-            <option value="pizza">Pizza Resturants</option>
+            <option value="dinky">Dinkytown restaurants</option>
+            <option value="sv">Stadium Village restaurants</option>
+            <option value="pizza">Pizza restaurants</option>
             <option value="chains">Chains</option>
             <option value="coffee/tea">Coffee and Tea</option>
-            <option value="brekkie">Breakfast Resturants</option>
+            <option value="brekkie">Breakfast restaurants</option>
+            <option value="pizzaMan">Charley's Favorite Restaurants</option>
           </select> 
       </div>
 
       <div class="response"><br>
         <button type="button" (click)="generateRand(selectedList)">click to generate</button>
       </div>
-      <div class="resturantBox">
-      <p id="resturant">{{randomResturant}}</p>
+      <div class="restaurantBox">
+      <p id="restaurant">{{randomrestaurant}}</p>
         <p>:)</p>
       </div>
 
