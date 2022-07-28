@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { AppRoutingModule } from './restaurant-generator-routing.module';
+import { AppComponent } from './restaurant-generator.component';
 
 @NgModule({
   declarations: [

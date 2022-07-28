@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './restaurant-generator.component.html',
+  styleUrls: ['./restaurant-generator.component.css']
 })
 export class AppComponent {
   title = 'test-app';
